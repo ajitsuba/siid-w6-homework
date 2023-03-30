@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="tab.css" />
+  </head>
+  <body>
+    <div>いらっしゃいませ！よろず屋へようこそ！</div>
+    <div class="tab" id="js-tab">
+      <div class="tab-nav">
+        <a href="" class="tab-nav-item is-active" data-nav="0">武器</a>
+        <a href="" class="tab-nav-item" data-nav="1">盾</a>
+        <a href="" class="tab-nav-item" data-nav="2">防具</a>
+        <a href="" class="tab-nav-item" data-nav="3">アイテム</a>
+      </div>
+      <!-- タブの中身 -->
+      <div class="tab-contents">
+        <div class="tab-contents-item" data-content="0">
+          武器一覧
+          <div class="accordion" id="js-faq">
+            <p href="" class="accordion-trigger">◆木の剣</p>
+            <div class="accordion-contents">
+              木で作られた剣。脆いが、無いよりはマシ。
+            </div>
+            <p href="" class="accordion-trigger">◆石の剣</p>
+            <div class="accordion-contents">石で作られた剣。攻撃力は低い。</div>
+            <p href="" class="accordion-trigger">◆鉄の剣</p>
+            <div class="accordion-contents">鉄で作られた剣。攻撃力は普通。</div>
+            <p href="" class="accordion-trigger">◆炎の剣</p>
+            <div class="accordion-contents">
+              炎属性が付与された剣。攻撃力は高い。
+            </div>
+          </div>
+        </div>
+        <div class="tab-contents-item" data-content="1">
+          盾一覧
+          <div class="accordion" id="js-accordion">
+            <dd href="" class="accordion-trigger">◆木の盾</dd>
+            <div class="accordion-contents">
+              木で作られた盾。脆いが、無いよりはマシ。
+            </div>
+            <dd href="" class="accordion-trigger">◆銅の盾</dd>
+            <div class="accordion-contents">銅で作られた盾。防御力は低い。</div>
+            <dd href="" class="accordion-trigger">◆鉄の盾</dd>
+            <div class="accordion-contents">鉄で作られた盾。防御力は普通。</div>
+          </div>
+        </div>
+        <div class="tab-contents-item" data-content="2">
+          防具一覧
+          <div class="accordion" id="js-faq2">
+            <dt href="" class="accordion-trigger">◆布の服</dt>
+            <div class="accordion-contents">
+              布で作られた服。防御力はほぼ無い。
+            </div>
+            <dt href="" class="accordion-trigger">◆皮の服</dt>
+            <div class="accordion-contents">皮で作られた服。寒さは凌げる。</div>
+            <dt href="" class="accordion-trigger">◆銅の鎧</dt>
+            <div class="accordion-contents">銅で作られた鎧。防御力は低い。</div>
+            <dt href="" class="accordion-trigger">◆鉄の鎧</dt>
+            <div class="accordion-contents">鉄で作られた鎧。防御力は普通。</div>
+          </div>
+        </div>
+        <div class="tab-contents-item" data-content="3">
+          アイテム一覧
+          <div class="accordion" id="js-faq3">
+            <dl href="" class="accordion-trigger">◆薬草</dl>
+            <div class="accordion-contents">
+              自然に生えている薬草。使うと体力が10回復する。
+            </div>
+            <dl href="" class="accordion-trigger">◆回復薬</dl>
+            <div class="accordion-contents">
+              薬草から作られた薬。使うと体力が50回復する。
+            </div>
+            <dl href="" class="accordion-trigger">◆虫除けスプレー</dl>
+            <div class="accordion-contents">
+              普通の虫除けスプレー。使うと少しの間モンスターに遭遇しなくなる。
+            </div>
+            <dl href="" class="accordion-trigger">◆解毒薬</dl>
+            <div class="accordion-contents">使うと毒状態から回復する。</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="tab.js"></script>
+  </body>
+</html>
